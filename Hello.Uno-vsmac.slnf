@@ -1,0 +1,16 @@
+{
+  "solution": {
+    "path": "Hello.Uno.sln",
+    "projects": [
+      "Hello.Uno.Tests\\Hello.Uno.Tests.csproj",
+      "Hello.Uno.UITests\\Hello.Uno.UITests.csproj",
+      "Hello.Uno.Mobile\\Hello.Uno.Mobile.csproj",
+      "Hello.Uno.Skia.Gtk\\Hello.Uno.Skia.Gtk.csproj",
+      "Hello.Uno.Wasm\\Hello.Uno.Wasm.csproj",
+      "Hello.Uno.Server\\Hello.Uno.Server.csproj",
+      "Hello.Uno.DataContracts\\Hello.Uno.DataContracts.csproj",
+      "Hello.Uno.Base\\Hello.Uno.Base.csproj",
+      "Hello.Uno\\Hello.Uno.csproj"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "Hello.Uno",
+  "display": "standalone",
+  "name": "Hello.Uno",
+  "short_name": "Hello.Uno",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
