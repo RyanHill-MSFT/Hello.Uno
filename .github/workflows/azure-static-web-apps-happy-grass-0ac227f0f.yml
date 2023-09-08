@@ -27,7 +27,7 @@ jobs:
     
       - run: |
           cd Hello.Uno.Wasm
-          dotnet new -i Uno.Templates
+          dotnet workload install wasm-tools
           dotnet restore
           dotnet build -c Debug
 
