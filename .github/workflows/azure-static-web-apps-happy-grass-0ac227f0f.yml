@@ -27,7 +27,7 @@ jobs:
     
       - run: |
           cd Hello.Uno.Wasm
-          dotnet workload install wasm-tools Microsoft.ios.Sdk.net7
+          dotnet workload install wasm-tools ios android
           dotnet 
           dotnet restore
           dotnet build -c Debug
