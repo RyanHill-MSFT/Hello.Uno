@@ -26,7 +26,9 @@ jobs:
           dotnet-version: '7.0.x'
     
       - run: |
-          cd Source/Platforms/Hello.Uno.Wasm
+          cd Hello.Uno.Wasm
+          dotnet workload install wasm-tools Microsoft.ios.Sdk.net7
+          dotnet 
           dotnet restore
           dotnet build -c Debug
 
