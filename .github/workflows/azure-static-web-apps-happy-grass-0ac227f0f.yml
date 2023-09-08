@@ -27,10 +27,7 @@ jobs:
     
       - run: |
           cd Hello.Uno.Wasm
-          dotnet workload install wasm-tools ios android
-          dotnet 
-          dotnet restore
-          dotnet build -c Debug
+          dotnet build
 
       - name: Build And Deploy
         id: builddeploy
