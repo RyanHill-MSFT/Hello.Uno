@@ -27,7 +27,7 @@ jobs:
     
       - run: |
           cd Hello.Uno.Wasm
-          dotnet tool install Uno.Templates
+          dotnet new -i Uno.Templates
           dotnet restore
           dotnet build -c Debug
 
